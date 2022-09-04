@@ -1,7 +1,8 @@
-package com.example.test
+package com.example.test.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.test.R
 
 class Pantalla3Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

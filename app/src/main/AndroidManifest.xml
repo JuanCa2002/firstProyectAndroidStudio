@@ -14,13 +14,13 @@
         android:theme="@style/Theme.Test"
         tools:targetApi="31">
         <activity
-            android:name=".Pantalla3Activity"
+            android:name=".activity.Pantalla3Activity"
             android:exported="false" />
         <activity
-            android:name=".Pantalla2Activity"
+            android:name=".activity.Pantalla2Activity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

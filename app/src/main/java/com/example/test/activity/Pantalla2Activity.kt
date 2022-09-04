@@ -1,8 +1,9 @@
-package com.example.test
+package com.example.test.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.test.R
 
 class Pantalla2Activity : AppCompatActivity() {
     val MESSAGE_DEBUG:String = MainActivity::class.java.simpleName
