@@ -7,7 +7,7 @@ import com.example.test.R
 class Pantalla3Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pantalla3)
+        setContentView(R.layout.constraint_layout_activity)
     }
 
     override fun onBackPressed() {
