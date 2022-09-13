@@ -15,6 +15,21 @@
         android:layout_centerVertical="true"
         android:text="Pantalla Dos" />
 
+    <Button
+        android:id="@+id/btnNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="5dp"
+        android:text="Botón Normal" />
+    <ToggleButton
+        android:id="@+id/btnToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Inhabilitado"
+        android:textOn="Habilitado" />
+
+
 
 
 </android.widget.RelativeLayout>

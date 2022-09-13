@@ -3,6 +3,7 @@ package com.example.test.activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import com.example.test.R
 
 class Pantalla2Activity : AppCompatActivity() {
@@ -45,4 +46,9 @@ class Pantalla2Activity : AppCompatActivity() {
     fun showLog(message:String){
         Log.d(MESSAGE_DEBUG, message)
     }
+
+    private fun mostrarMensaje( mensaje:String ){
+        Toast.makeText(this, mensaje, Toast.LENGTH_LONG).show()
+    }
+
 }
